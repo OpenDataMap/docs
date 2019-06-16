@@ -2,3 +2,9 @@ site_name: OpenDataMap Documentation
 site_url: 'https://docs.opendatamap.net'
 theme:
   name: 'material'
+  font: false
+repo_name: 'GitHub'
+repo_url: 'https://github.com/OpenDataMap/opendatamap'
+edit_uri: 'https://github.com/OpenDataMap/docs/edit/master/docs'
+markdown_extensions:
+  - admonition
