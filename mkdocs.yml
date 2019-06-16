@@ -8,3 +8,7 @@ repo_url: 'https://github.com/OpenDataMap/opendatamap'
 edit_uri: 'https://github.com/OpenDataMap/docs/edit/master/docs'
 markdown_extensions:
   - admonition
+nav:
+  - 'Welcome to OpenDataMap': 'index.md'
+  - 'Install and Update':
+    - 'Install in Production': 'install_production.md'
