@@ -1,0 +1,4 @@
+site_name: OpenDataMap Documentation
+site_url: 'https://docs.opendatamap.net'
+theme:
+  name: 'material'
