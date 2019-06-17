@@ -19,9 +19,3 @@ npm install -g pm2
 cd [$OpenDataMap-Directory]
 pm2 start main.js --name opendatamap --prod [$PORT]
 ```
-
-## Connection to webserver
-The OpenDataMap server will listen on the port you defined. You may want to use a reverse proxy on your webserver to pass a domain to the OpenDataMap instance:
-
-- [nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/#pass)
-- [apache2.4](https://httpd.apache.org/docs/2.4/mod/mod_proxy.html#examples)
