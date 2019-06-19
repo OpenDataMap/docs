@@ -15,3 +15,5 @@ nav:
   - 'Install and Update':
     - 'Install in Production': 'install_update/install_production.md'
     - 'Linking with webserver': 'install_update/webserver.md'
+  - 'Development':
+    - 'Set up': 'development/set_up.md'
