@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://docs.opendatamap.net/</loc>
-     <lastmod>2019-06-17</lastmod>
+     <lastmod>2019-06-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.opendatamap.net/install_update/install_production/</loc>
-     <lastmod>2019-06-17</lastmod>
+     <lastmod>2019-06-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.opendatamap.net/install_update/webserver/</loc>
-     <lastmod>2019-06-17</lastmod>
+     <lastmod>2019-06-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.opendatamap.net/development/set_up/</loc>
+     <lastmod>2019-06-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
