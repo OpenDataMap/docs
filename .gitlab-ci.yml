@@ -13,6 +13,6 @@ deploy_production:
     name: production
     url: https://docs.opendatamap.net
   script:
-    - ssh -o StrictHostKeyChecking=no -p $SSH_PORT ci@lupus.infra.labcode.de "cd /var/www/opendatamap.net/docs.opendatamap.net/ && git checkout master && git reset --hard HEAD && git pull origin master && docker run --rm --volume="$PWD:/docs" -t squidfunk/mkdocs-material build && exit"
+    - ssh -o StrictHostKeyChecking=no -p $SSH_PORT ci@lupus.infra.labcode.de "cd /var/www/opendatamap.net/docs.opendatamap.net/ && git checkout master && git reset --hard HEAD && git pull origin master && docker run --rm --volume="/var/www/opendatamap.net/docs.opendatamap.net:/docs" -t squidfunk/mkdocs-material build && exit"
   only:
     - master
