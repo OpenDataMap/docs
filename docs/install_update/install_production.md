@@ -17,5 +17,5 @@ npm install
 ```
 npm install -g pm2
 cd [$OpenDataMap-Directory]
-pm2 start main.js --name opendatamap --prod [$PORT]
+pm2 start opdmctl --name opendatamap -- serve -p [$PORT]
 ```
